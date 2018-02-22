@@ -1,0 +1,1 @@
+function scrollToTop(o){void 0!==o&&null!=o?o.scrollIntoView():console.log("Element not find =/")}document.querySelector(".backtop").onclick=function(){scrollToTop(document.querySelector(".container"))};
